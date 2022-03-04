@@ -1,0 +1,18 @@
+const camisa = {
+    value: 2,
+}
+
+const short = {
+    value: 3,
+}
+
+function mapComThis(arr, thisArg) {
+    return arr.map(function(item){
+return item * this.value;
+    }, thisArg)
+}
+
+const nums = [10,20];
+
+console.log('this-> camisa', mapComThis(nums, camisa));
+console.log('this-> short', mapComThis(nums, short));
