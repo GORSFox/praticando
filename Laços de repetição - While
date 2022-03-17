@@ -1,0 +1,6 @@
+var a=0;
+while(a<10){
+a++;
+console.log(a);
+
+}//enquanto a variável a for menor que 10, ela vai receber mais um e imprimir no console//
