@@ -1,0 +1,15 @@
+var jogador1 = 10;
+var jogador2 = 3;
+if(jogador1>5){
+console.log('jogador1 marcou ponto')
+}else if (jogador2>5){
+console.log('jogador2 marcou ponto')
+
+}else{
+console.log('ninguem marcou ponto')
+}
+
+console.log(5);
+
+//Para mais de uma condição usamos o else if.//
+//Como a referência é 5, apenas o jogador1 marcou ponto.//
